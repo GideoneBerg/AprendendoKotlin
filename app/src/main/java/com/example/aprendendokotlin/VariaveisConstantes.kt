@@ -5,8 +5,6 @@ package com.example.aprendendokotlin
 fun retornaNomeUsuario(nomeB: String){
     val nome = nomeB
 }
-
-
     // variaveis globais
     var teste = 55
     val numero = 20
