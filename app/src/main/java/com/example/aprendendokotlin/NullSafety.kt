@@ -13,7 +13,7 @@ package com.example.aprendendokotlin
 
 // NullPointerException => Esse erro ocorre quando temos uma classe
 // ou variável nula, erro ocorre em tempo de execução quando a aplicacão
-// está andamento
+// está em andamento
 class Carro {
     var cor = "vermelho"
 
@@ -38,7 +38,8 @@ fun main() {
     if( carro != null ){
         println(carro.cor) // veja que o código é igual da linha 31
                             // a diferença é que o kotlin entendi que foi
-                            // feito um if verificando de a condição era nula
+                            // feito um if verificando se a condição era nula
+                            // fazendo que o erro não apareça
     }
 
 }
